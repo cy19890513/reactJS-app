@@ -3,13 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you can find runnable of this project at [React Board Game](https://codepen.io/cy19890513/pen/rzNMmg).
 
 
-## Table of Contents
-
-
 ## Folder Structure
 
-After creation, your project should look like this:
-
+The project should look like this if clone from online repository:
 ```
 reactJS-app/
   README.md
