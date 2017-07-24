@@ -176,7 +176,7 @@ var HelloUser = React.createClass({
     return (
       <div>
       	<p/><p/>
-      	Input name here: <input type="text" value={this.state.username} onChange={this.handleChange} />
+      	Input your name here: <input type="text" value={this.state.username} onChange={this.handleChange} />
       	<p/><p/><p/><p/>
         Welcome <b>{this.state.username}</b>! 
         <br/>This is a reactJs demo: play a board game.
