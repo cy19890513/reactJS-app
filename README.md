@@ -2,6 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Below you can find runnable of this project at [React Board Game](https://codepen.io/cy19890513/pen/rzNMmg).
 
+![image1](public/localhost.PNG)
 
 ## Folder Structure
 
