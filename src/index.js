@@ -112,7 +112,7 @@ class Game extends React.Component {
     if (winner) {
       status = "Winner: " + winner;
     } else {
-      status = "Next player: " + (this.state.xIsNext ? "X" : "O");
+      status = "Next player use " + (this.state.xIsNext ? "\"X\"" : "\"O\"");
     }
 
     return (
@@ -178,8 +178,8 @@ var HelloUser = React.createClass({
       	<p/><p/>
       	Input name here: <input type="text" value={this.state.username} onChange={this.handleChange} />
       	<p/><p/><p/><p/>
-        Welcome {this.state.username}. 
-        <br/>This is a reactJs project demo: play a board game.
+        Welcome <b>{this.state.username}</b>! 
+        <br/>This is a reactJs demo: play a board game.
         <br/>Click in the board to start the game<br /> 
         <p/>
       </div>
